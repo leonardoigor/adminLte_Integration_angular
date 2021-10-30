@@ -7,3 +7,5 @@ RUN npm install -g npm
 RUN npm install -g @angular/cli
 
 EXPOSE 4200
+RUN npm i
+CMD npm  run start
