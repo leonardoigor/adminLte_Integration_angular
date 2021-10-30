@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  angularLTE:
+    build:
+      context: .
+
+    tty: true
+    volumes:
+      - ./:/app
+    ports:
+      - 5000:4200
