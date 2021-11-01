@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { LoginComponent } from 'src/modules/Login/Login.component';
-import { LoginModule } from 'src/modules/Login/Login.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,8 +16,8 @@ import { NavBarComponent } from './Components/NavBar/NavBar.component';
     ControlSideBarComponent,
     FooterComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, LoginModule],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent, LoginModule],
+  bootstrap: [AppComponent],
 })
 export class AppModule {}
